@@ -83,34 +83,6 @@ nav li:first-child {
 
 /* End Header Section */
 
-/* Nav Responsiveness */
-@media (max-width: 800px) {
-    .hideOnMobile {
-        display: none;
-    }
-
-    .menubtn {
-        display: block;
-    }
-}
-
-@media (max-width: 400px) {
-    .sidebar {
-        width: 100%;
-    }
-
-    img {
-        width: 100%;
-    }
-
-    .students img {
-        width: 100%;
-    }
-
-    .main {
-        padding: 0;
-    }
-}
 
 /* End Nav Responsiveness */
 
@@ -158,8 +130,7 @@ nav li:first-child {
     color: #163020;
 }
 
-/* Responsivenes Section */
-@media screen and (max-width:360px) {}
+
 
 /* End Responsivenes Section */
 /* End Hero Section */
@@ -194,6 +165,7 @@ nav li:first-child {
 .description h1 {
     padding-bottom: 10px;
     color: #101d15;
+    line-height: 1;
 }
 
 .description p {
@@ -245,6 +217,7 @@ nav li:first-child {
 .para h1 {
     padding-bottom: 10px;
     color: white;
+    line-height: 1;
 }
 
 .para p {
@@ -422,52 +395,6 @@ img {
     border-radius: 80px 0 80px 0;
 }
 
-@media screen and(max-width: 768px) {
-    .heading h1 {
-        font-size: 45px;
-        margin-top: 30px;
-    }
-
-    .img {
-        flex: 1;
-    }
-
-    #fog {
-        margin: 0px;
-    }
-
-    .container {
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0px;
-        padding: 0px 40px;
-        gap: 50px;
-    }
-
-    .fog-content {
-        width: 100%;
-        margin: 35px 0px;
-    }
-
-    .fog-content h2 {
-        font-size: 30px;
-    }
-
-    .fog-content p {
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
-
-    .fog-content button {
-        font-size: 16px;
-        padding: 8px 16px;
-    }
-
-    .img {
-        width: 100%;
-    }
-}
 
 /* End About Section */
 
@@ -517,3 +444,106 @@ footer {
 }
 
 /* End Footer Section */
+@media (max-width: 500px) {
+
+
+    .sidebar {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .students img {
+        width: 100%;
+    }
+
+    .main {
+        padding: 0;
+    }
+
+    .title h1 {
+        font-size: 42px;
+    }
+
+    .contents {
+        margin-left: 20px;
+    }
+
+    .images img {
+        width: 100%;
+        height: 328px;
+    }
+
+    #school {
+        padding: 20px;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .heading h1 {
+        font-size: 45px;
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .heading h1 {
+        font-size: 45px;
+        margin-top: 30px;
+    }
+
+    .img {
+        flex: 1;
+    }
+
+    #fog {
+        margin: 0px;
+    }
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px 40px;
+        gap: 50px;
+    }
+
+    .fog-content {
+        width: 100%;
+        margin: 35px 0px;
+    }
+
+    .fog-content h2 {
+        font-size: 30px;
+    }
+
+    .fog-content p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .fog-content button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .img {
+        width: 100%;
+    }
+}
+
+/* Nav Responsiveness */
+@media (max-width: 800px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menubtn {
+        display: block;
+    }
+}
